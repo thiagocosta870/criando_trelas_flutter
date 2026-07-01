@@ -30,6 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white70,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
@@ -37,8 +38,31 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [Image.asset(height: 400, 'assets/images/login.png')],
           ),
-          Text('Bem-vindo!', style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),),
-          Text('Que bom ter você aqui.', style: TextStyle(fontSize: 25, fontWeight: FontWeight.normal),),
+          Text(
+            'Bem-vindo!',
+            style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+          ),
+          const SizedBox(height: 20),
+          Text(
+            'Que bom ter você aqui.',
+            style: TextStyle(fontSize: 25, fontWeight: FontWeight.normal),
+          ),
+          const SizedBox(height: 60),
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.blue,
+              foregroundColor: Colors.white,
+              minimumSize: const Size(280, 65),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+            ),
+            onPressed: () {},
+            child: const Text(
+              'Começar',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+          ),
         ],
       ),
     );
