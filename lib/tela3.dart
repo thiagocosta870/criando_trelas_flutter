@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 const SizedBox(height: 20),
                 Text('marianosilvo@gmail.com', style: TextStyle(fontSize: 18)),
-                const SizedBox(height: 150),
+                const SizedBox(height: 90),
 
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -142,7 +142,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ],
                 ),
-                const SizedBox(height: 150),
+                const SizedBox(height: 80),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.blue[400],
