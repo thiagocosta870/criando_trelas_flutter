@@ -89,16 +89,24 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 100),
+                const SizedBox(height: 80),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.deepPurple,
                     foregroundColor: Colors.white,
-                    
+                    minimumSize: Size(400, 50)
                   ),
                   onPressed: () {},
-                  child: Text('Entrar'),
+                  child: Text(
+                    'Entrar',
+                    style: TextStyle(
+                      fontSize: 28,
+                      fontWeight: FontWeight.normal,
+                    ),
+                  ),
                 ),
+                const SizedBox(height: 40,),
+                Text('Esqueceu a senha?',style: TextStyle(fontSize: 18, color: Colors.deepPurple),),
               ],
             ),
           ),
