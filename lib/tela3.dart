@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Login Simples',
+      title: 'Perfil do Usuário',
       debugShowCheckedModeBanner: false,
-      home: const MyHomePage(title: 'Login Simples'),
+      home: const MyHomePage(title: 'Perfil do Usuário'),
     );
   }
 }
