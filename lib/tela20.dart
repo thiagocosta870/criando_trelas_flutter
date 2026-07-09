@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 Container(
                   width: double.infinity,
-                  height: 600,
+                  height: 430,
                   decoration: BoxDecoration(
                     color: Colors.deepPurpleAccent,
 
